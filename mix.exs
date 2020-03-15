@@ -18,7 +18,8 @@ defmodule DrunkenSavantsAlice.MixProject do
       mod: {
         Alice, %{
           handlers: [
-            Alice.Handlers.Roller
+            Alice.Handlers.Roller,
+            Alice.Handlers.GoodMorningLanguages
           ]
         }
       }
@@ -28,8 +29,9 @@ defmodule DrunkenSavantsAlice.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:alice, "~> 0.3.7"},
-      {:alice_roller, "~> 0.2.0"}
+      {:alice,              "~> 0.3.7"},
+      {:alice_roller,       "~> 0.2.0"},
+      {:alice_good_morning, "~> 1.0"}
     ]
   end
 end
