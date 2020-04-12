@@ -30,7 +30,7 @@ defmodule DrunkenSavantsAlice.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:alice, github: "alice-bot/alice", branch: "master", override: true},
+      {:alice, "~> 0.4.2", override: true},
       {:alice_roller,       "~> 0.3.1"},
       {:alice_good_morning, "~> 1.0"},
       {:alice_karma,        "~> 0.3"}
