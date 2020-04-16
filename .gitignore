@@ -8,3 +8,4 @@ erl_crash.dump
 alice_roller-*.tar
 
 run.sh
+console.sh
